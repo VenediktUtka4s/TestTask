@@ -1,5 +1,6 @@
 # Мини-синхронизатор заявок
-n**Живой сервис:** https://orders-sync-venedikt.netlify.app
+
+**Живой сервис:** https://orders-sync-venedikt.netlify.app
 
 Забирает «сырые» заявки с `https://test.ooobs.ru/api/orders`, нормализует телефоны, схлопывает дубли и отдаёт результат в JSON.
 
