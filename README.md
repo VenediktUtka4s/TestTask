@@ -25,4 +25,10 @@
 node server.js   # http://localhost:3000
 ```
 
-Без зависимостей, Node.js 18+. Деплой — Vercel (`api/clients.js`, все пути переписываются на него в `vercel.json`).
+Без зависимостей, Node.js 18+.
+
+## Деплой
+
+- **Netlify** — `netlify/functions/clients.mjs`, все пути переписываются на функцию в `netlify.toml`.
+- **Render / любой хостинг с Node** — `npm start` (`server.js`, порт из `PORT`).
+- **Vercel** — `api/clients.js` + `vercel.json`.
